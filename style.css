@@ -14,6 +14,16 @@ body {
   background: linear-gradient(#006eff57, rgba(255, 192, 208, 0.603))
 }
 
+*:not(canvas){
+  position: relative;
+  z-index: 1;
+}
+
+canvas {
+  position: relative !important;
+  z-index: 0 !important;
+}
+
 a,
 p,
 label,
