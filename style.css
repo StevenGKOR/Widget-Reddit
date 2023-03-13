@@ -1,0 +1,98 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Courier New';
+  background: linear-gradient(#006eff57, rgba(255, 192, 208, 0.603))
+}
+
+a,
+p,
+label,
+li,
+button {
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(24, 24, 24);
+}
+
+input {
+  border: none
+}
+
+input:focus-visible {
+  outline: 0px;
+  border: 0px;
+}
+
+button {
+  border: 0px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-family: 'Courier New'
+}
+
+.btn {
+  min-width: 130px;
+  padding: 0.3rem 0.6rem;
+  background: rgb(25 0 255 / 40%);
+  border-radius: 5px;
+  font-weight: 600;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 31%);
+}
+
+.btn:hover {
+  color: rgba(25, 0, 255, 0.658);
+  background :rgba(194, 188, 250, 0.288);
+}
+
+.widget-form{
+  width: 100%;
+  text-align: center;
+  padding: 0.6rem 1.2rem;
+}
+
+.form-input{
+  background: rgb(216, 216, 216);
+  height: 33px;
+  border-radius:5px;
+  margin-right: 5px;
+}
+
+#widgets {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.single-wigdet{
+  width: 100%;
+  background: rgba(128, 128, 128, 0.212);
+  border-radius: 5px;
+  padding: 0.33rem;
+  margin-bottom: 0.33rem;
+}
+
+.error-text{
+  color: rgba(255, 0, 0, 0.658);
+  font-weight: 600
+}
