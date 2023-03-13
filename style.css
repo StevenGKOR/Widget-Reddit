@@ -19,11 +19,6 @@ body {
   z-index: 1;
 }
 
-canvas {
-  position: relative !important;
-  z-index: 0 !important;
-}
-
 a,
 p,
 label,

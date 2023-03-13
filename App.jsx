@@ -1,5 +1,8 @@
 const App = () => {
-    const [subreddits, setSubreddits] = React.useState([]);
+  const initialSubreddits = Array.from(
+    document.querySelectorAll('.single-widget')
+  ).map((widget) => widget.dataset.subreddit);
+  const [subreddits, setSubreddits] = React.useState(initialSubreddits);
   
     const handleAddWidget = (subreddit) => setSubreddits([...subreddits, subreddit]);
   
