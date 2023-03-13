@@ -1,5 +1,5 @@
  const settings = {
-    "fullScreen": false,
+    "fullScreen": true,
     "fpsLimit": 30,
     "particles": {
         "number": {
